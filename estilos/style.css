@@ -4,3 +4,76 @@
     --cor-verde: #49a09d;
     --cor-lilas: #5f2c82;
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+}
+
+body{
+    background-color: var(--cor-lilas);
+    margin-top: 50px;
+}
+
+main{
+    background-color: aqua;
+    margin-top: 3em;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+section{
+    margin: auto;
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+img{
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+#formulario > h1{
+    text-align: center;
+    padding: 10px;
+}
+#formulario > p{
+    text-align: justify;
+    padding: 10px;
+}
+
+form{
+    text-align: center;
+    
+}
+
+form > input{
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.entrar{
+    background-color: var(--cor-verde);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.esqueci{
+    color: var(--cor-verde);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid var(--cor-verde);
+}
